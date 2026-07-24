@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>D'LOVE Athletics Club</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div class="header">
+    <a href="#" class="logo"><span class="logo-red">D'LOVE</span> ATHLETICS CLUB</a>
+
+    <div class="menu-btn" onclick="toggleMenu()">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
+    <div class="nav" id="navMenu">
+      <a href="#results">Results</a>
+      <a href="#squad">Squad</a>
+      <a href="#join">Join</a>
+    </div>
+  </div>
+
+  <div class="hero">
+    <div class="hero-text">
+      <p class="sub-title">DURBAR STADIUM, OYO · OYO STATE</p>
+      <h1>Built on the track.<br>Proven at nationals.</h1>
+      <p>D'LOVE Athletics Club trains sprinters out of Durbar Stadium, Oyo producing state and national medalists across track events since 2023.</p>
+      <a href="#join" class="button">Join Today</a>
+    </div>
+  </div>
+
+  <div class="results" id="results">
+    <h2>Achievements</h2>
+    <div class="results-box">
+      <div class="result-item">
+        <div class="result-number">50+</div>
+        <div class="result-text">MEDALS WON</div>
+      </div>
+      <div class="result-item">
+        <div class="result-number">30+</div>
+        <div class="result-text">GOLD MEDALS</div>
+      </div>
+      <div class="result-item">
+        <div class="result-number">10.8s</div>
+        <div class="result-text">100M MALE CLUB RECORD</div>
+      </div>
+      <div class="result-item">
+        <div class="result-number">4</div>
+        <div class="result-text">NATIONAL QUALIFIERS</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="squad" id="squad">
+    <h2>Team Spotlight</h2>
+    <div class="athlete-container">
+
+      <div class="athlete-card">
+        <div class="athlete-img-1"></div>
+        <div class="athlete-info">
+          <h3>Ojo Kehinde</h3>
+          <p>200m sprinter — state champion, 2024</p>
+          <hr>
+          <span class="tag">SPRINTS</span>
+          <span class="pb-time">PB 22.57s</span>
+        </div>
+      </div>
+
+      <div class="athlete-card">
+        <div class="athlete-img-2"></div>
+        <div class="athlete-info">
+          <h3>Adejumo Stephen</h3>
+          <p>400m — national qualifier, 2025.</p>
+          <hr>
+          <span class="tag">JUMPS</span>
+          <span class="pb-time">PB 48.2s</span>
+        </div>
+      </div>
+
+      <div class="athlete-card">
+        <div class="athlete-img-3"></div>
+        <div class="athlete-info">
+          <h3>Oyewale Emmanuel</h3>
+          <p>100m — club record holder.</p>
+          <hr>
+          <span class="tag">100M</span>
+          <span class="pb-time">PB 10.7s</span>
+        </div>
+      </div>
+
+       <div class="athlete-card">
+        <div class="athlete-img-4"></div>
+        <div class="athlete-info">
+          <h3>Raji Azeezat Mohammed</h3>
+          <p>100m — club record holder.</p>
+          <hr>
+          <span class="tag">100M</span>
+          <span class="pb-time">PB 11.7s</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="footer" id="join">
+    <div class="footer-content">
+      <div>
+        <h2>Train with us</h2>
+        <p>Trials held every first Saturday of the month at Durbar Stadium track.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Contact</h4>
+        <a href="mailto:Dlove@gmail.com">D'love@gmail.com</a>
+        <a href="tel:+2348055757636">+234 805 575 7636</a>
+      </div>
+    </div>
+    <div class="copyright">
+      &copy; 2026 D'LOVE Athletics Club. Durbar Stadium, Oyo, Oyo State.
+    </div>
+  </div>
+
+<script>
+  // simple show/hide for the mobile menu
+  function toggleMenu() {
+    var menu = document.getElementById("navMenu");
+    if (menu.className == "nav") {
+      menu.className = "nav show";
+    } else {
+      menu.className = "nav";
+    }
+  }
+</script>
+
+</body>
+</html>
